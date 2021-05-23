@@ -1,0 +1,16 @@
+.logo {
+  display: inline-block;
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+}
+
+.header__logo {
+  padding: 20px 0;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
