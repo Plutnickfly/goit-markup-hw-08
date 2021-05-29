@@ -15,6 +15,7 @@
   margin-left: auto;
   margin-right: auto;
   background-position: center;
+  margin-bottom: 60px;
   .banner__title {
     font-weight: 900;
     font-size: 26px;
@@ -80,5 +81,8 @@
   .banner__title {
     font-size: 44px;
     line-height: 1.36;
+  }
+  .banner {
+    margin-bottom: 0px;
   }
 }

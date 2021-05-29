@@ -1,16 +1,16 @@
-@import "../sass/mobile/mobile";
-@import "../sass/tablet/tablet";
+// @import "../sass/mobile/mobile";
+// @import "../sass/tablet/tablet";
 @import "./Utilits/vars";
 @import "./components/_main-elements";
 @import "./base/common";
-
+@import "./components/button";
 @import "./components/header";
 @import "./components/banner";
 @import "./components/logo";
 @import "./components/sociallink";
 @import "./components/footer";
 @import "./components/projects";
-@import "./components/button";
+
 @import "./components/quality";
 @import "./components/team";
 @import "./components/clients";
