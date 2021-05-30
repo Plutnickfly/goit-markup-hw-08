@@ -43,7 +43,8 @@
 .submit__button {
   display: inline-block;
   position: relative;
-  top: 30px;
+  margin-top: 30px;
+  // bottom: 30px;
   left: calc(50% - 100px);
 }
 
@@ -88,7 +89,7 @@
 
   transition: opacity 250ms var(--cubic-timing),
     visibility 250ms var(--cubic-timing);
-  z-index: 1;
+  z-index: 3;
   overflow-y: scroll;
 }
 .backdrop.is-hidden {
@@ -122,14 +123,15 @@
 
 .contact__form--checkbox-text {
   letter-spacing: 3%;
+  font-size: 14px;
+  line-height: 1.17;
 }
-
 .contact__form--checkbox-text::before {
   content: " ";
   display: inline-flex;
   width: 16px;
   height: 15px;
-  margin-left: 8px;
+  margin-left: 0px;
   margin-right: 8px;
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
@@ -168,4 +170,33 @@
   background-position: center;
   background-color: var(--blue-color);
   border-color: var(--blue-color);
+}
+
+@media screen and (max-width: 767px) {
+  .modal__container {
+    width: 450px;
+    height: 609px;
+  }
+  .contact__form--checkbox-text {
+    font-size: 12px;
+    line-height: 1.16;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+  }
+  .link {
+    font-size: 12px;
+    line-height: 1.16;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+  }
+  .submit__button {
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    // bottom: 40px;
+    left: calc(50% - 100px);
+  }
+  .contact__form--checkbox-text::before {
+    margin-right: 6px;
+  }
 }
