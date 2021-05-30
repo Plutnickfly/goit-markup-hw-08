@@ -64,6 +64,7 @@
 @media screen and (max-width: 767px) {
   .header__container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     height: 60px;
     max-width: 480px;
@@ -79,7 +80,7 @@
     background-color: #fff;
     padding: 20px;
     &.is-open {
-      display: block;
+      display: flex;
       height: 100%;
       overflow: hidden;
       z-index: 2;
@@ -107,9 +108,9 @@
       transition: color 250ms var(--cubic-timing);
     }
   }
-  .header__navigation {
-    margin-bottom: 300px;
-  }
+  // .header__navigation {
+  //   margin-bottom: 300px;
+  // }
   .hidden {
     display: none;
   }
@@ -120,6 +121,7 @@
   .header__contacts {
     display: inline-flex;
     flex-direction: column-reverse;
+    margin-top: auto;
     margin-right: auto;
     margin-bottom: 64px;
   }
