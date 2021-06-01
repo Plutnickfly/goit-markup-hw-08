@@ -180,7 +180,7 @@
     background-color: var(--footer-color);
     text-align: left;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0;
   }
   .join__list {
     display: flex;
@@ -193,7 +193,6 @@
   .footer__container {
     display: flex;
     justify-content: space-between;
-
     max-width: 1200px;
     width: 100%;
     height: auto;
@@ -222,6 +221,7 @@
   .contact__form--subscribe {
     margin-right: 12px;
   }
+
   .item-title {
     text-align: left;
   }

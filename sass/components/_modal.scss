@@ -140,7 +140,8 @@
 }
 
 .contact__form--svg {
-  fill: currentColor;
+  fill: var(--primary-text-color);
+
   transition: fill 250ms var(--cubic-timing);
   .contact__form--input:focus + & {
     fill: var(--blue-color);
@@ -172,7 +173,7 @@
   border-color: var(--blue-color);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .modal__container {
     width: 450px;
     height: 609px;
